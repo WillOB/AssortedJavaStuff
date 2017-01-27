@@ -1,6 +1,7 @@
 import java.util.Random;
 public class HasFullHouse {
 
+	// runtime is 14 * n
 	public static void main(String[] args) {
 		Random rand = new Random();
 		int length = rand.nextInt(20);
